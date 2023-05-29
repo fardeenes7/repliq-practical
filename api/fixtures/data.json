@@ -60,33 +60,34 @@
         }
     },
     {
-        "model":"",
-        "pk":,
-        "fields":{
-
+        "model": "asset.assettype",
+        "pk": 1,
+        "fields": {
+            "name": "Laptop",
+            "description": "Laptop"
         }
     },
     {
-        "model":"",
-        "pk":,
-        "fields":{
-
+        "model": "asset.asset",
+        "pk": 1,
+        "fields": {
+            "asset_type": 1,
+            "name": "Asus Zenbook 14 2021",
+            "description": "8GB Ram 512GB SSD 14 inch FHD",
+            "company": 1,
+            "condition": "New",
+            "purchase_date": "2021-01-01",
+            "purchase_cost": 74000
         }
     },
     {
-        "model":"",
-        "pk":,
-        "fields":{
-
+        "model": "asset.assetdelegation",
+        "pk": 1,
+        "fields": {
+            "asset": 1,
+            "employee": 2,
+            "delegated_by": 1,
+            "check_out_date": "2021-01-01"
         }
-    },
-    {
-        "model":"",
-        "pk":,
-        "fields":{
-
-        }
-    },
-    
-
+    }
 ]

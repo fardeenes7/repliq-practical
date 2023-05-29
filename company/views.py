@@ -1,10 +1,10 @@
 from django.shortcuts import render
 from rest_framework import viewsets
 from company.models import Company, Role, User
-from api.serializers import CompanySerializer, RoleSerializer, UserSerializer
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework import status
+from company.serializers import CompanySerializer, RoleSerializer, UserSerializer
 
 
 # Create your views here.
