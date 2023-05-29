@@ -1,0 +1,45 @@
+[
+    {
+        "model": "company.Company",
+        "fields": {
+            "name": "Repliq",
+            "description": "Repliq is a software development company",
+            "city": "Dhaka",
+            "address": "Lalmatia",
+            "country": "Bangladesh"
+        }
+    },
+    {
+        "model": "company.role",
+        "pk": 1,
+        "fields": {
+            "name": "Admin",
+            "slug": "admin"
+        }
+    },
+    {
+        "model": "company.role",
+        "pk": 2,
+        "fields": {
+            "name": "Employee",
+            "slug": "employee"
+        }
+    },
+    {
+        "model": "company.user",
+        "pk": 1,
+        "fields": {
+            "username": "admin",
+            "email": "admin@repliq.dev",
+            "password": "admin",
+            "first_name": "Admin",
+            "last_name": "Repliq",
+            "company": 1,
+            "role": 1,
+            "phone": "01700000000",
+            "is_active": true,
+            "is_staff": true,
+            "is_superuser": true
+        }
+    }
+]
