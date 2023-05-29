@@ -12,6 +12,8 @@ git clone
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+python manage.py makemigrations company asset api && python manage.py migrate
+python manage.py loaddata data.json
 python manage.py runserver
 ```
 
