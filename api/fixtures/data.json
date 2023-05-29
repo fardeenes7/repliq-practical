@@ -41,5 +41,52 @@
             "is_staff": true,
             "is_superuser": true
         }
-    }
+    },
+    {
+        "model": "company.user",
+        "pk": 2,
+        "fields": {
+            "username": "employee",
+            "email": "employee@repliq.com",
+            "password": "employee",
+            "first_name": "Fardeen",
+            "last_name": "Ehsan",
+            "company": 1,
+            "role": 2,
+            "phone": "01700000000",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false
+        }
+    },
+    {
+        "model":"",
+        "pk":,
+        "fields":{
+
+        }
+    },
+    {
+        "model":"",
+        "pk":,
+        "fields":{
+
+        }
+    },
+    {
+        "model":"",
+        "pk":,
+        "fields":{
+
+        }
+    },
+    {
+        "model":"",
+        "pk":,
+        "fields":{
+
+        }
+    },
+    
+
 ]
